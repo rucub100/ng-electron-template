@@ -1,17 +1,14 @@
 {
   "name": "ng-electron-template",
-  "version": "0.0.0",
-  "main": "main.js",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "electron-build": "ng build --prod && electron .",
-    "electron": "electron .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "electron-build": "ng build --prod && electron ./build",
+    "electron": "electron ./build"
   },
   "private": true,
   "dependencies": {
