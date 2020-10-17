@@ -4,7 +4,7 @@ This project allows you to combine two popular frameworks to build cross-platfro
 
 ## How to
 
-The procedure is based on the [question on stackoverflow](https://stackoverflow.com/questions/41130993/electron-not-allowed-to-load-local-resource).
+The procedure is based on this [question on stackoverflow](https://stackoverflow.com/questions/41130993/electron-not-allowed-to-load-local-resource).
 
 ### Prerequisites
 
@@ -33,8 +33,8 @@ The procedure is based on the [question on stackoverflow](https://stackoverflow.
    1. `src/package.json` - The starting point of your Electron application; Make sure the name `"main"; "electron-main.js"` is correct; Additionaly add two scripts: `"pack": "electron-builder --dir"` and `"dist": "electron-builder"`
 1. Update `angular.json`
    1. Change the output path to `"outputPath": "build"`
-   1. Add two assets `"src/package.json"` and `"src/electron-main.js"
-1. Finally consider to adjust the .gitignore file with `/build`
+   1. Add two assets `"src/package.json"` and `"src/electron-main.js"`
+1. Finally consider to adjust the `.gitignore` file with `/build`
 
 ### Workflow
 
